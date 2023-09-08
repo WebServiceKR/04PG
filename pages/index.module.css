@@ -1,0 +1,58 @@
+.sectionTitle {
+  flex: 1;
+  position: relative;
+  line-height: 38px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.h2sectiontitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1208px;
+}
+.maincontentcontainter,
+.pdpspecifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.maincontentcontainter {
+  align-self: stretch;
+  padding: var(--padding-45xl) var(--padding-97xl);
+  gap: var(--gap-45xl);
+}
+.pdpspecifications {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--h2headertext-size);
+  color: var(--petrol85);
+  font-family: var(--h4navigationtext);
+}
+@media screen and (max-width: 960px) {
+  .maincontentcontainter {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .pdpspecifications {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .maincontentcontainter {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+  .pdpspecifications {
+    width: auto;
+    align-self: unset;
+  }
+}

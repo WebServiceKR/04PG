@@ -1,0 +1,23 @@
+.overview {
+  position: relative;
+  line-height: 17px;
+  text-transform: capitalize;
+}
+.underlinebar {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--darkblue);
+  height: 4px;
+}
+.stateselected {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-3xs) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--h5navigationtext-size);
+  color: var(--petrol85);
+  font-family: var(--h4navigationtext);
+}

@@ -1,0 +1,207 @@
+.specifiericon {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.specifier {
+  position: relative;
+  line-height: 17px;
+  text-transform: capitalize;
+}
+.hubmenu,
+.specifierhubmenuitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.hubmenu {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-21xl);
+  max-width: 1208px;
+}
+.hubnavbar {
+  align-self: stretch;
+  background-color: var(--petrol85);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-97xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.purmologoIcon {
+  position: relative;
+  width: 160px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.menuitem {
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.horizontalnavlinks,
+.mainmaenuitem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.mainmaenuitem {
+  padding: 0 var(--padding-5xl);
+  align-items: center;
+}
+.horizontalnavlinks {
+  flex: 1;
+  align-items: flex-start;
+  max-width: 634px;
+  text-align: left;
+  font-size: var(--h4navigationtext-size);
+  color: var(--petrol100);
+  font-family: var(--h4navigationtext);
+}
+.searchIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.searchicon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.hamb1 {
+  position: relative;
+  border-radius: var(--br-12xs);
+  background-color: var(--petrol100);
+  width: 30px;
+  height: 4px;
+}
+.hamburgericon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.navsicons,
+.searchnavbar {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.searchnavbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navsicons {
+  flex: 1;
+  justify-content: flex-end;
+}
+.headerbar,
+.headercontent,
+.navsicons {
+  display: flex;
+  align-items: center;
+}
+.headerbar {
+  width: 100%;
+  flex-direction: row;
+  padding: var(--padding-10xl) 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  max-width: 1208px;
+}
+.headercontent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 var(--padding-97xl);
+  justify-content: flex-start;
+}
+.gradient {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #faa61a 12.97%, #20bec6 87.5%);
+  height: 10px;
+}
+.gradientbarregular {
+  align-self: stretch;
+  position: relative;
+  height: 10px;
+}
+.headercontainer {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--h5navigationtext-size);
+  color: var(--white);
+  font-family: var(--h4navigationtext);
+  align-self: stretch;
+}
+@media screen and (max-width: 1200px) {
+  .hubnavbar {
+    padding-left: var(--padding-97xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hubnavbar {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .horizontalnavlinks {
+    display: none;
+  }
+  .headercontent {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .headercontent,
+  .hubnavbar {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .horizontalnavlinks {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hubmenu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

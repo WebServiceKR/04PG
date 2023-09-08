@@ -1,0 +1,85 @@
+.productName {
+  flex: 1;
+  position: relative;
+  line-height: 46px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.producttitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--h1headerstyle-size);
+}
+.productShortDescription {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.descriptiontext {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkicon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.productBenefitName {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.benefitline {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.buttonbox,
+.prodlabelbox {
+  display: flex;
+  flex-direction: column;
+}
+.buttonbox {
+  align-self: stretch;
+  padding: var(--padding-base) 0;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--c2captiontext-size);
+  color: var(--white);
+}
+.prodlabelbox {
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--h4navigationtext-size);
+  color: var(--petrol85);
+  font-family: var(--h4navigationtext);
+}
+@media screen and (max-width: 420px) {
+  .prodlabelbox {
+    flex: unset;
+    align-self: stretch;
+  }
+}
+@media screen and (max-width: 840px) {
+  .prodlabelbox {
+    flex: unset;
+    align-self: stretch;
+  }
+}

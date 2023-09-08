@@ -1,0 +1,60 @@
+.overview {
+  position: relative;
+  font-size: var(--h5navigationtext-size);
+  line-height: 17px;
+  text-transform: capitalize;
+  font-family: var(--h4navigationtext);
+  color: var(--petrol85);
+  text-align: left;
+}
+.underlinebar {
+  align-self: stretch;
+  position: relative;
+  height: 4px;
+  display: none;
+}
+.underlinebar:hover {
+  display: none;
+}
+.subnavitem {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-3xs) 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.underlinebar1 {
+  align-self: stretch;
+  position: relative;
+  height: 4px;
+}
+.productsubnav {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.subnavline {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--petrol12);
+  box-sizing: border-box;
+  height: 1px;
+}
+.prodsubnavcontainer {
+  margin: 0;
+  width: var(--page-width);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}

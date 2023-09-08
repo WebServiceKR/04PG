@@ -1,0 +1,29 @@
+.buttonType6 {
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+}
+.buttontype6,
+.specbuttonscontainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttontype6 {
+  border-radius: var(--br-10xs);
+  background-color: var(--petrol70);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 284px;
+}
+.specbuttonscontainer {
+  width: 1208px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  max-width: 1208px;
+  text-align: center;
+  font-size: var(--c2captiontext-size);
+  color: var(--white);
+  font-family: var(--h4navigationtext);
+}

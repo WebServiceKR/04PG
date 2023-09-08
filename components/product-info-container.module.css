@@ -1,0 +1,209 @@
+.productName {
+  flex: 1;
+  position: relative;
+  line-height: 46px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.producttitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--h1headerstyle-size);
+}
+.productShortDescription {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.descriptiontext {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkicon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.productBenefitName {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.benefitline {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.buttonType1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--c2captiontext-size);
+  text-transform: uppercase;
+  font-family: var(--h4navigationtext);
+  color: var(--white);
+  text-align: center;
+}
+.buttontype1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--dadrkorange);
+  width: 100%;
+  border-radius: var(--br-10xs);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  max-width: 284px;
+}
+.buttontype1:hover {
+  background-color: var(--color-orange);
+}
+.buttonType5 {
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+}
+.buttontype5 {
+  width: 100%;
+  border-radius: var(--br-10xs);
+  background-color: var(--darkblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  max-width: 284px;
+}
+.buttonbox,
+.prodlabelbox {
+  display: flex;
+  flex-direction: column;
+}
+.buttonbox {
+  align-self: stretch;
+  padding: var(--padding-base) 0;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--c2captiontext-size);
+  color: var(--white);
+}
+.prodlabelbox {
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.prodimage420Icon {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.imagebox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.productinfobox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  max-width: 1002px;
+}
+.productinfocontainer {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-97xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--h4navigationtext-size);
+  color: var(--petrol85);
+  font-family: var(--h4navigationtext);
+  align-self: stretch;
+}
+@media screen and (max-width: 960px) {
+  .productinfocontainer {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .prodimage420Icon,
+  .prodlabelbox {
+    flex: unset;
+    align-self: stretch;
+  }
+  .prodimage420Icon {
+    width: auto;
+    flex: 1;
+  }
+  .imagebox {
+    flex: unset;
+    align-self: stretch;
+  }
+  .productinfobox {
+    flex-direction: column;
+  }
+  .productinfocontainer {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 350px) {
+  .prodimage420Icon {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+}
+@media screen and (max-width: 480px) {
+  .prodimage420Icon {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+}
+@media screen and (max-width: 840px) {
+  .prodimage420Icon,
+  .prodlabelbox {
+    flex: unset;
+    align-self: stretch;
+  }
+  .prodimage420Icon {
+    width: auto;
+    flex: 1;
+  }
+  .imagebox {
+    flex: unset;
+    align-self: stretch;
+  }
+  .productinfobox {
+    flex-direction: column;
+  }
+}

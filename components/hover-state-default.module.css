@@ -1,0 +1,21 @@
+.readMore {
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+}
+.hoverstatedefault {
+  border-radius: var(--br-10xs);
+  background-color: var(--white);
+  border: 1px solid var(--petrol70);
+  box-sizing: border-box;
+  width: 118px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--c2captiontext-size);
+  color: var(--petrol70);
+  font-family: var(--h4navigationtext);
+}

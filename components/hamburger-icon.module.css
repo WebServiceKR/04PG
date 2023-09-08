@@ -1,0 +1,18 @@
+.hamb1 {
+  position: relative;
+  border-radius: var(--br-12xs);
+  background-color: var(--petrol851);
+  width: 30px;
+  height: 4px;
+}
+.hamburgericon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}

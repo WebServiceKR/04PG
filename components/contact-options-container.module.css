@@ -1,0 +1,108 @@
+.sectionTitle {
+  flex: 1;
+  position: relative;
+  line-height: 38px;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.h2sectiontitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1208px;
+}
+.icontechadv {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.getAdviceFrom,
+.technicalAdvice {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.getAdviceFrom {
+  font-size: var(--d1descriptiontext-size);
+  line-height: 20px;
+}
+.readMore {
+  flex: 1;
+  position: relative;
+  font-size: var(--c2captiontext-size);
+  text-transform: uppercase;
+  font-family: var(--h4navigationtext);
+  color: var(--petrol70);
+  text-align: center;
+}
+.buttontype4,
+.iconframe1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttontype4 {
+  cursor: pointer;
+  border: 1px solid var(--petrol70);
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--white);
+  border-radius: var(--br-10xs);
+  box-sizing: border-box;
+  width: 118px;
+  flex-direction: row;
+}
+.iconframe1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.iconmodules {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  max-width: 1208px;
+  font-size: var(--h4navigationtext-size);
+}
+.contactoptionscontainer {
+  background-color: var(--darkblue);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-45xl) var(--padding-97xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--h2headertext-size);
+  color: var(--white);
+  font-family: var(--h4navigationtext);
+  align-self: stretch;
+}
+@media screen and (max-width: 960px) {
+  .contactoptionscontainer {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .iconframe1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .iconmodules {
+    flex-direction: column;
+    gap: var(--gap-45xl);
+  }
+  .contactoptionscontainer {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+}

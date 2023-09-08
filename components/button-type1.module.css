@@ -1,0 +1,26 @@
+.buttonType1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--c2captiontext-size);
+  text-transform: uppercase;
+  font-family: var(--h4navigationtext);
+  color: var(--white);
+  text-align: center;
+}
+.buttontype1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--dadrkorange);
+  width: 100%;
+  border-radius: var(--br-10xs);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  max-width: 284px;
+}
+.buttontype1:hover {
+  background-color: var(--color-orange);
+}

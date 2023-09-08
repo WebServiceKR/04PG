@@ -1,0 +1,16 @@
+.menuitem {
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.mainmaenuitem {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--h4navigationtext-size);
+  color: var(--petrol100);
+  font-family: var(--h4navigationtext);
+}

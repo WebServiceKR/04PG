@@ -1,0 +1,37 @@
+.parameterUnit {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.rowa {
+  align-self: stretch;
+  border-bottom: 1px solid var(--petrol12);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-5xs);
+  gap: var(--gap-5xl);
+}
+.rowa,
+.rowb,
+.specificationstable {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rowb {
+  align-self: stretch;
+  background-color: var(--petrol05);
+  border-bottom: 1px solid var(--petrol12);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-5xs);
+  gap: var(--gap-5xl);
+}
+.specificationstable {
+  width: 1002px;
+  overflow: hidden;
+  flex-direction: column;
+  max-width: 1002px;
+  text-align: left;
+  font-size: var(--d1descriptiontext-size);
+  color: var(--petrol85);
+  font-family: var(--h4navigationtext);
+}

@@ -1,0 +1,31 @@
+.icons8Belgium1001 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footerTextLabel {
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.footerlabelitem,
+.marketselector {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footerlabelitem {
+  flex-wrap: wrap;
+  padding: var(--padding-3xs) 0;
+  justify-content: center;
+}
+.marketselector {
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--c2captiontext-size);
+  color: var(--petrol35);
+  font-family: var(--h4navigationtext);
+}

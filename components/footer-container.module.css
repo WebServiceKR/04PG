@@ -1,0 +1,170 @@
+.introducingPurmo {
+  margin: 0;
+}
+.introducingPurmoComfortDeliContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.helpingAllPurmo,
+.subscribe {
+  align-self: stretch;
+  position: relative;
+}
+.helpingAllPurmo {
+  line-height: 22px;
+}
+.subscribe {
+  font-size: var(--c2captiontext-size);
+  text-transform: uppercase;
+  color: var(--brightblue);
+}
+.footertextbox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  color: var(--white);
+}
+.products {
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.footeritemtitle {
+  flex-direction: row;
+  padding: var(--padding-5xs) 0 var(--padding-base);
+  align-items: center;
+  color: var(--white);
+}
+.footeritemtitle,
+.footerproductbox,
+.productfooteritem {
+  display: flex;
+  justify-content: flex-start;
+}
+.productfooteritem {
+  align-self: stretch;
+  border-bottom: 1px solid var(--petrol85);
+  flex-direction: row;
+  padding: var(--padding-5xs) 0 var(--padding-9xs);
+  align-items: center;
+}
+.footerproductbox {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footercolumnsbox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  max-width: var(--break-point);
+  font-size: var(--h4navigationtext-size);
+}
+.facebookIcon {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footersocialicons {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-45xl) 0;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+}
+.footerTextLabel {
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.footerlabelitem,
+.footerlinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.footerlabelitem {
+  padding: var(--padding-3xs) 0;
+}
+.footerlinks {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.icons8Belgium1001 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.marketselector {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.footerbottomline,
+.footercontainer {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-13xl) 0 0;
+  align-items: center;
+  justify-content: center;
+}
+.footercontainer {
+  background-color: var(--petrol100);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-97xl) var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--c2captiontext-size);
+  color: var(--petrol35);
+  font-family: var(--h4navigationtext);
+  align-self: stretch;
+}
+@media screen and (max-width: 1200px) {
+  .footercontainer {
+    padding-left: var(--padding-97xl);
+    padding-right: var(--padding-97xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .footertextbox {
+    display: none;
+  }
+  .footercolumnsbox {
+    display: flex;
+  }
+  .footercontainer {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footercolumnsbox {
+    display: none;
+  }
+  .footercontainer {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+}

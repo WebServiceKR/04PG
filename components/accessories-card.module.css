@@ -1,0 +1,50 @@
+.accessoryprodimageIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.accessories {
+  align-self: stretch;
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.radiatorValveFv,
+.shortProductDescription {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--h4navigationtext-size);
+  line-height: 24px;
+}
+.shortProductDescription {
+  font-size: var(--d1descriptiontext-size);
+  line-height: 20px;
+}
+.cardbox {
+  flex: 1;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.accessoriescard {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 284px;
+  text-align: left;
+  font-size: var(--c2captiontext-size);
+  color: var(--petrol85);
+  font-family: var(--h4navigationtext);
+  flex: 1;
+}
